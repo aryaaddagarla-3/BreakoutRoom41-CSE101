@@ -40,7 +40,7 @@ while lives_remaining > 0:
         lives_remaining = lives_remaining - 1
         print("Lives remaining: " + str(lives_remaining))
         rounds_played = rounds_played + 1
-        if lives_remaining = 0
+        if lives_remaining == 0:
             print("you are a failure my dude")
         continue
 
