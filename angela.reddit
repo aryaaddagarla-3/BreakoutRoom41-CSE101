@@ -1,0 +1,13 @@
+import praw
+
+reddit = praw.Reddit(
+    client_id="SI8pN3DSbt0zor",
+    client_secret="xaxkj7HNh8kwg8e5t4m6KvSrbTI",
+    password="grangel613",
+    user_agent="testscriptr by u/fakebot3",
+    username="SeaweedBrainPower",
+)
+
+list = ["pizza","dumplings","protein powder", "brownies", "chop suey","gelato","boba","matcha"]
+
+print("Day 1")
